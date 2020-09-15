@@ -71,7 +71,7 @@ function checkWin() {
     if (unguessed === 0) {
         overlay.className = 'win';
         overlay.style.display = 'flex';
-        startGameBtn.textContent = "Try Again";
+        startGameBtn.textContent = "Play Again";
         message.textContent = "You Win!";
         clearAll();
     } else if (missed >= 5) {
