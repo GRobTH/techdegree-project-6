@@ -13,6 +13,7 @@
   --color-keys-light: #E5E5E5;
   --font-size-large: 60px;
   --font-size-medium: 20px;
+  --font-size-message: 40px;
   --transition: all .2s ease-in-out;
 }
 
@@ -40,6 +41,13 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: var(--font-size-large);
   margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--font-size-message);
+  margin-top: 0;
 }
 
 button {
@@ -93,8 +101,14 @@ button {
 }
 
 .show {
-  color: #000;
-  background-color: #76CE82;
+  font-size: var(--font-size-medium);
+  color: #fff;
+  background-color: #6EC9D2;
+  height: 65px;
+  width: 65px;
+  padding: 20px 1px 0 1px;
+  margin-right: 2px;
+  border-radius: 5px;
 }
 
 /* Keyboard */
